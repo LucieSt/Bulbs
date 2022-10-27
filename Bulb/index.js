@@ -5,9 +5,7 @@ export const Bulb = (props) => {
     const zarovka = document.createElement('div');
     zarovka.classList.add('bulb', 'bulb--on');
 
-    console.log(isOn)
-
-    if (!isOn) {
+    if (!isOn) {j
         zarovka.classList.remove('bulb--on');
     }
 
