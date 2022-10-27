@@ -1,4 +1,3 @@
-console.log('funguju!');
 
 import { Bulb } from "./Bulb/index.js";
 
